@@ -14,3 +14,13 @@ I noticed that even though I correctly pushed, and the terminal states everythin
 # Test save theory 1
 
 I am going to make this change, save on my local machine and then git add . > git commit > git push
+
+# Save theory seems to work!
+
+Okay so it appears like when I make a chance, if I add > commit > push it doesn't work. Not fully. It will push the file but not the contents of the file. I'm thinking I have to save the contents of the file first so that it knows it is there. The workflow would be something like:
+
+1. Make changes
+2. Save changes on local computer (command S)
+3. git add .
+4. git commit -m "Comment"
+5. git push (or git push -u origin master if upstream not yet set)
