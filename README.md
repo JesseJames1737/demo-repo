@@ -24,3 +24,9 @@ Okay so it appears like when I make a chance, if I add > commit > push it doesn'
 3. git add .
 4. git commit -m "Comment"
 5. git push (or git push -u origin master if upstream not yet set)
+
+
+# Branch test 1
+
+- I am currently in the branch-test1 branch
+- I am going to apply the above theory to see if this works for this branch
